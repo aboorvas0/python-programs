@@ -1,0 +1,22 @@
+n=int(input("enter the value:"))
+
+s=0
+for i in range(1,n):
+    if(n%i==0):
+        print(i)
+        s=s+1
+        
+        
+    
+print("total",s)
+if(s==1):
+    print("prime number")
+else:
+    print("not prime")
+the output is:
+enter the value:6
+1
+2
+3
+total 3
+not prime
