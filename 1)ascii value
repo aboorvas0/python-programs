@@ -1,0 +1,6 @@
+d='S'
+c='n'
+value1=ord(d)
+value2=ord(c)
+print("The ASCII value of '" + d + "' is", value1)
+print("The ASCII value of '" + c + "' is", value2)
