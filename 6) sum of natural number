@@ -1,0 +1,8 @@
+n=int(input("Enter a number: "))
+s= 0
+i=0
+while(i<n):
+    s=s+i
+    i=i+1
+    print(i)
+print("The sum of first n natural numbers is",s)
